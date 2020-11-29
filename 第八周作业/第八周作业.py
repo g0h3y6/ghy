@@ -33,7 +33,7 @@ class Fib:
         if num==1:
             return 1
         elif num==2:
-            return 2
+            return 1
         else:
             return self.time_consume(num-1)+self.time_consume(num-2)
     @profile(precision=4)
